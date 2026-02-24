@@ -7,7 +7,7 @@ namespace Test.Controllers;
 public class HomeController : Controller
 {
     public IActionResult Index()
-    {
+    { ViewBag.Message = "Xin chào ngà";
         return View();
     }
 
